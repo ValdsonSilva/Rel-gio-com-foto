@@ -1,0 +1,76 @@
+@charset "utf-8";
+
+body {
+    background-image: url('dia.jpg');
+    display: grid;
+    place-content: center;
+
+    
+}
+
+
+.caixaCen {
+    width: 1000px;
+    height: 1000px;
+
+    background-color: transparent;
+
+    backdrop-filter: blur(30px);
+
+    display: grid;
+    place-content: center;
+
+    box-shadow: 0px 0px 0px 1px black;
+}
+
+.Dia {
+    width: 600px;
+    height: 600px;
+
+    border-radius: 50%;
+
+    
+}
+
+h1{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.caixa {
+    display: grid;
+    place-content: center;
+
+    
+}
+
+.relogio {
+    background-color: rgba(192, 163, 98, 0.87);
+
+    width: 1000px;
+    height: 200px;
+
+    margin-bottom: 10px;
+
+
+
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+
+    display: grid;
+    place-content: center;
+}
+
+.hora {
+    font-family:'Courier New', Courier, monospace;
+    font-size: 50px;
+}
+
+.data {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+    font-size: 20px;
+}
